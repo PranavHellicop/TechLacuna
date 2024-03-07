@@ -1,0 +1,151 @@
+/* swiper js code */
+
+  .swiper {
+   
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
+  }
+  
+  .swiper-slide {
+    /* background-position: top;
+    background-size: cover; */
+    /* width: 20rem; */
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #f8f9fa;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    max-width: 25rem;
+    background-image: url("../../public/Images/purpleFlower.jpg");
+    overflow: hidden;
+
+  }
+
+  /* .swiper-slide p {
+    font-size: 0.8rem;
+  } */
+
+  .swiper-slide .company{
+    font-size: 0.8rem;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 50%;
+    height: 100%;
+    border-radius: 100%;
+    margin-left: auto;
+  margin-right: auto;
+  }
+
+.about{
+  background-image: url("../../public/Images/wave-haikei.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.red-star{
+  color:red;
+  font-size:small ;
+  position: relative;
+  top: -2px;
+  left: -2px;
+  
+}
+
+
+.heroBtn{
+  transition: transform 500 ease-in-out;
+}
+.heroBtn:hover{
+  transform: rotate(-20deg) scaleZ(1)
+  
+}
+
+
+
+
+
+/* Default font size for the root element */
+/* html { */
+  /* font-size: 16px; Base font size for 1rem */
+/* } */
+
+/* Common HTML tags font sizes */
+/* body { */
+  /* font-size: 1rem; 16px */
+/* } */
+
+/* h1 { */
+  /* font-size: 2rem; 32px */
+/* } */
+
+/* h2 { */
+  /* font-size: 1.5rem; 24px */
+/* } */
+
+/* h3 { */
+  /* font-size: 1.25rem; 20px */
+/* } */
+
+/* p { */
+  /* font-size: 1rem; 16px */
+/* } */
+
+/* Media query for mobile screens */
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  /* Adjust font sizes for smaller screens */
+  h1 {
+    font-size: 1.75rem; /* 28px */
+  }
+
+  h2 {
+    font-size: 1.25rem; /* 20px */
+  }
+
+  h3 {
+    font-size: 1rem; /* 16px */
+  }
+
+  p {
+    font-size: 0.875rem; /* 14px */
+  }
+}
+
+/* Media query for larger screens (laptops) */
+@media screen and (min-width: 1024px) {
+  /* Adjust font sizes for larger screens */
+  html {
+    font-size: 18px; /* Adjust base font size for larger screens */
+  }
+
+  h1 {
+    font-size: 2.5rem; /* 40px */
+  }
+
+  h2 {
+    font-size: 1.75rem; /* 28px */
+  }
+
+  h3 {
+    font-size: 1.5rem; /* 24px */
+  }
+
+  p {
+    font-size: 1.125rem; /* 18px */
+  }
+}
+
+ 
