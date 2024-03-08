@@ -27,7 +27,7 @@ const Home = () => {
           <h1 className='lg:text-6xl text-5xl w-full text-center lg:mb-0 lg:p-0 font-josefin '>What We Do</h1>
           <div className='flex flex-col space-y-20 '>
             {serviceItems.map((item) => (
-              <PostCard {...item} />
+              <PostCard {...item} key={item.heading} />
             ))}
           </div>
         </div>
@@ -39,8 +39,8 @@ const Home = () => {
           <div className='flex justify-center items-center flex-wrap lg:space-x-5  mx-auto '>
             {
               featureItems.map((item) => (
-                <div className='bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 mb-10 lg:mb-0 p-[0.1rem] lg:p-0 lg:bg-none'>
-                  <div key={item.heading} className=' bg-light_dark-0 lg:bg-inherit  '>
+                <div key={item.id} className='bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 mb-10 lg:mb-0 p-[0.1rem] lg:p-0 lg:bg-none'>
+                  <div  className=' bg-light_dark-0 lg:bg-inherit  '>
                     <Card {...item} />
                   </div>
                 </div>

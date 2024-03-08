@@ -47,7 +47,7 @@ const Testimonial = () => {
       >
         {testimonials.map((item) => (
 
-          <SwiperSlide className='lg:h-[27rem] h-[22rem]'>
+          <SwiperSlide className='lg:h-[27rem] h-[22rem]' key={item.id}>
             <BiSolidQuoteAltLeft className='text-white font-extrabold lg:text-5xl text-sm' />
             <p className='text-wrap text-white lg:text-[0.8rem] text-[0.8rem] italic font-normal'>{item.content}</p>
             <div className='flex text-center w-fit lg:h-1/6 h-[14%] items-center justify-center lg:space-x-2 space-x-0 p-1'>

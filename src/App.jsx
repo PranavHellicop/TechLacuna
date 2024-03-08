@@ -5,12 +5,12 @@ import Layout from './component/Layout'
 import { ScrollToTop } from './component/ScrollToTop'
 import PrivacyPolicy from './component/Privacy/PrivacyPolicy'
 import Terms from './component/Terms/terms'
-
+import SuccessPage from './component/SuccessPage'
 
 function App() {
 
   return (
-    // <Layout>
+
     <>
       <ScrollToTop />
       <Header />
@@ -21,11 +21,12 @@ function App() {
       <Route path='/services' element={<Services />} />
       <Route path='/privacy' element={<PrivacyPolicy />} />
       <Route path='/terms' element={<Terms />} />
+      <Route path='/success' element={<SuccessPage />} />
     </Routes>
       <Footer />
 
       </>
-    // </Layout>
+ 
   )
 }
 

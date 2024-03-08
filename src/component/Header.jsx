@@ -1,7 +1,6 @@
 import React from 'react'
 import { Logo } from "./index"
 import { NavLink, useLocation } from 'react-router-dom'
-import { Button } from "./index"
 import { GiHamburgerMenu } from "react-icons/gi";
 import { ImCross } from "react-icons/im";
 import { useState } from 'react';
@@ -41,10 +40,10 @@ const Header = () => {
 
         <ul className='flex font-poppins justify-center items-center space-x-10 font-sans_serif'>
           {navItems.map((item) => (
-            <NavLink to={item.path} className="hover:bg-light_dark-2 rounded-lg p-2 hover:text-white transition duration-300 ease-in-out">
+            <NavLink to={item.path} key={item.itemName} className="hover:bg-light_dark-2 rounded-lg p-2 hover:text-white transition duration-300 ease-in-out">
               <Tilt>
 
-                <li key={item.itemName} className='font-bold hover:scale-105'>{item.itemName}</li>
+                <li  className='font-bold hover:scale-105'>{item.itemName}</li>
               </Tilt>
             </NavLink>
           ))}
@@ -66,8 +65,8 @@ const Header = () => {
       {navOpen &&
         <ul className={`flex justify-center w-full items-center flex-col space-y-4 absolute top-14  p-5 bg-light_dark-1 z-10`}>
           {navItems.map((item) => (
-            <NavLink to={item.path} className="text-white hover:text-gray-400 bg-light_dark-2 p-2 rounded-md w-full text-center" onClick={() => setIsNavOpen(!navOpen)} >
-              <li key={item.itemName} className='font-bold text-lg'>{item.itemName}</li>
+            <NavLink to={item.path} key={item.itemName} className="text-white hover:text-gray-400 bg-light_dark-2 p-2 rounded-md w-full text-center" onClick={() => setIsNavOpen(!navOpen)} >
+              <li  className='font-bold text-lg'>{item.itemName}</li>
             </NavLink>
           ))}
         </ul>
