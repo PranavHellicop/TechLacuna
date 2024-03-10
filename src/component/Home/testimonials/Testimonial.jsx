@@ -49,11 +49,11 @@ const Testimonial = () => {
 
           <SwiperSlide className='lg:h-[27rem] h-[22rem]' key={item.id}>
             <BiSolidQuoteAltLeft className='text-white font-extrabold lg:text-5xl text-sm' />
-            <p className='text-wrap text-white lg:text-[0.8rem] text-[0.8rem] italic font-normal'>{item.content}</p>
+            <p className='text-wrap text-white lg:text-[0.8rem] text-[0.7rem] italic font-normal'>{item.content}</p>
             <div className='flex text-center w-fit lg:h-1/6 h-[14%] items-center justify-center lg:space-x-2 space-x-0 p-1'>
               <img src={item.image} alt="image"/>
               <div className='flex flex-col justify-center items-center p-1 ml-[0.5rem] '>
-                <p className='text-white text-nowrap name lg:text-[0.8rem] text-[0.5rem]'>{item.name}</p>
+                <p className='text-white text-nowrap name lg:text-[0.8rem] text-[0.6rem]'>{item.name}</p>
                 <p className='text-white font-extrabold text-nowrap lg:text-[0.8rem] text-[0.8rem] '>{item.company.toUpperCase()}</p>
 
               </div>

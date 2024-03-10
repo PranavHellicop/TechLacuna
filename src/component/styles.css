@@ -120,7 +120,7 @@
   }
 
   p {
-    font-size: 0.875rem; /* 14px */
+    font-size: 0.895rem; /* 14px */
   }
 }
 
@@ -128,7 +128,7 @@
 @media screen and (min-width: 1024px) {
   /* Adjust font sizes for larger screens */
   html {
-    font-size: 18px; /* Adjust base font size for larger screens */
+    font-size: 16px; /* Adjust base font size for larger screens */
   }
 
   h1 {
@@ -144,7 +144,7 @@
   }
 
   p {
-    font-size: 1.125rem; /* 18px */
+    font-size: 1rem; /* 18px */
   }
 }
 

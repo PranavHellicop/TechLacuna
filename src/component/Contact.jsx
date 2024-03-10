@@ -1,8 +1,7 @@
 import React from 'react'
 import {useForm, ValidationError} from '@formspree/react'
-import SuccessPage from './SuccessPage';
 import { useNavigate} from 'react-router-dom';
-import Spinner from './Spinner';
+
 
 const Contact = () => {
   const [state, handleSubmit, reset] = useForm('xqkrlard');

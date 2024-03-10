@@ -38,12 +38,12 @@ export const serviceItems = [
   },
   {
     heading: "Facebook Ads",
-    content: "Are you looking for a cost-effective way to reach your target audience and increase your business's online presence? Look no further than our Facebook ads services! Our team of experts will craft a tailored strategy to help you connect with your ideal customers and achieve your marketing goals. From ad creation to performance tracking, we've got you covered. Let us help you take your business to the next level with Facebook advertising",
+    content: "Searching for a cost-effective means to expand your online presence? Our Facebook ads services deliver precisely that. With a customized approach, we connect you with your target audience, track performance, and propel your business to new heights.",
     reverse: true
   },
   {
     heading: "Mobile Application Design And Development",
-    content: "Our “Mobile Application Design and Development” service provides end-to-end solutions for creating custom mobile apps that meet your unique business needs and enhance your digital presence",
+    content: "Our comprehensive Mobile Application Design and Development service delivers tailored solutions, crafting custom mobile apps to elevate your digital presence and meet your business needs effectively.",
     reverse: false
   },
   {
@@ -91,17 +91,24 @@ export const testimonials = [
   },
   {
     id:4,
-    content: '"I am thrilled with the Instagram page that TechLacuna AI built and manages for my cricket coaching business, Cric Booster. The team has been professional, responsive, and highly skilled in managing the page and creating engaging content. Since they took over the management of the page, I\'ve seen a significant increase in followers and engagement, which has helped me grow my business and reach more potential customers. They have also provided valuable guidance on best practices for social media, which has been invaluable in developing my brand online. Overall, I highly recommend TechLacuna AI for any business looking to establish a strong presence on Instagram or other social media platforms."',
+    content: '"TechLacuna AI transformed my online presence. Their beautiful website design captures the essence of my art practice, and their targeted digital marketing campaigns consistently attract new students across a broader geographic area. Highly recommended!"',
     image: "https://swiperjs.com/demos/images/nature-3.jpg",
-    name: "Pranav Verma",
-    company: "Crick Booster"
+    name: "Lavanya",
+    company: "Art Coach"
   },
   {
     id:5,
-    content: '"I am thrilled with the Instagram page that TechLacuna AI built and manages for my cricket coaching business, Cric Booster. The team has been professional, responsive, and highly skilled in managing the page and creating engaging content. Since they took over the management of the page, I\'ve seen a significant increase in followers and engagement, which has helped me grow my business and reach more potential customers. They have also provided valuable guidance on best practices for social media, which has been invaluable in developing my brand online. Overall, I highly recommend TechLacuna AI for any business looking to establish a strong presence on Instagram or other social media platforms."',
+    content: '"With TechLacuna AI handling my social media, I can focus on treating patients while building strong online connections. They understand the healthcare field and create informative, engaging content that reflects my commitment to patient well-being."',
     image: "https://swiperjs.com/demos/images/nature-3.jpg",
-    name: "Pranav Verma",
-    company: "Crick Booster"
+    name: "Dr. Monika",
+    company: "Doctor"
+  },
+  {
+    id:6,
+    content: '"Partnering with TechLacuna AI on our app development was the best decision we could have made. Their seamless process, attention to detail, and clear communication resulted in an app that exceeds our users\' expectations and has already boosted our bookings."',
+    image: "https://swiperjs.com/demos/images/nature-3.jpg",
+    name: "Pammi Travels",
+    company: "Travel Service"
   }
 ]
 
