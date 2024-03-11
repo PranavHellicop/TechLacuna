@@ -10,7 +10,7 @@ const PrivacyPolicy = () => {
             <div className='m-5 flex flex-col space-y-5 mt-7' >
                 <div className='flex lg:flex-row flex-col justify-between items-center p-2 lg:space-x-5 space-y-3 mb-10'>
                     <div className='lg:w-1/2 w-full rounded-r-full border-8  border-r-light_dark-2 border-l-0 border-t-0 border-b-0'>
-                        <img src="./Images/privacy2.svg" alt="" className='w-3/4 ' />
+                        <img src="./Images/privacy2.svg" alt="image" className='w-3/4 ' />
                     </div>
                     <div className='lg:w-1/2 w-full flex space-y-3 flex-col'>
                         <h1 className=' text-5xl font-josefin font-extrabold'>Privacy Policy</h1>

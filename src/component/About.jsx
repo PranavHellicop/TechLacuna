@@ -11,7 +11,7 @@ const About = () => {
 
 
       <div className='lg:w-96 lg:h-96 w-80 h-80 '>
-        <img src="./Images/about_img.svg" alt="" className='rounded-full' />
+        <img src="./Images/about_img.svg" alt="image" className='rounded-full' />
       </div>
       <div className=' lg:w-9/12 w-full flex flex-col justify-center items-center '>
         <h2 className='text-center text-5xl  font-josefin mb-3'>Our Story</h2>
@@ -33,7 +33,7 @@ const About = () => {
 
       <div className='lg:flex flex-col items-center justify-center p-3 '>
         <div className='w-96 '>
-          <img src="./Images/mission.svg" alt="" />
+          <img src="./Images/mission.svg" alt="image" />
         </div>
         <div className='lg:w-2/3 w-full flex flex-col justify-center items-center '>
           <h2 className='text-center text-5xl font-josefin mb-3'>Our Mission</h2>
