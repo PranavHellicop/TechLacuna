@@ -16,8 +16,8 @@ const Contact = () => {
   return (
     <div className='flex flex-col lg:flex-row m-4 lg:mt-16 mt-5 mb-16 space-y-10 lg:space-y-0 items-center lg:h-[40rem] justify-center'>
       <div className='flex flex-col lg:w-1/3 w-full lg:ml-5 '>
-        <div className='border-4 border-light_dark-1 rounded-lg'>
-          <img src="./Images/contact_us.jpg" alt="" />
+        <div className='bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 p-1'>
+          <img src="./Images/contact_us.jpg" alt="contact-image" className='' />
         </div>
         <div>
           <p className='mt-5 lg:text-sm p-1'>Looking for more information or have any doubts? Submit your information and we will follow up with you as soon as possible.</p>

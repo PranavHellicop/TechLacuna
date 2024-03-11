@@ -17,7 +17,9 @@ export default {
         rancho:["Rancho", "cursive"],
         rock_salt:["Rock Salt", "cursive"],
         sail:["Sail", "system-ui"],
-        kaushan:["Kaushan Script", "cursive"]
+        kaushan:["Kaushan Script", "cursive"],
+        open_sans:["Open Sans", "sans-serif"],
+        oswald:["Oswald", "sans-serif"]
       },
       colors:{
         light_dark:["#2d283e","#802bb1","#6e22a3"],
