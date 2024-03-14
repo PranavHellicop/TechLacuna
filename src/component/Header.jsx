@@ -33,23 +33,23 @@ const Header = () => {
 
   return (
     <header className='sticky top-0 z-10' >
-      <div className={`lg:flex justify-between hidden items-center pt-0 mb-0 m-4 pb-0 border  border-x-light_dark-1 border-t-light_dark-1 border-b-light_dark-0 ${pathname === "/about" ? "bg-light_dark-1 border-b-light_dark-1" : "bg-light_dark-1"} rounded-md `}>
+      <div className={`lg:flex justify-between hidden items-center pt-0 mb-0 m-4 pb-0 pr-2 pl-2 border  border-x-light_dark-1 border-t-light_dark-1 border-b-light_dark-0 ${pathname === "/about" ? "bg-gradient-to-r from-[#9733EE] to-[#DA22FF] border-b-light_dark-1 rounded-none" : "bg-gradient-to-r from-[#9733EE] to-[#DA22FF]"} rounded-md `}>
         <div className=''>
           <Logo src="./Images/logo1.webp" />
         </div>
 
         <ul className='flex font-poppins justify-center items-center space-x-10 font-sans_serif'>
           {navItems.map((item) => (
-            <NavLink to={item.path} key={item.itemName} className="hover:bg-light_dark-2 rounded-lg p-2 hover:text-white transition duration-300 ease-in-out">
+            <NavLink to={item.path} key={item.itemName} className="hover:bg-purple-900 rounded-lg p-1 hover:text-white transition duration-300 ease-in-out">
               <Tilt>
 
-                <li  className='font-bold hover:scale-105'>{item.itemName}</li>
+                <li  className='font-bold hover:scale-105 text-white'>{item.itemName}</li>
               </Tilt>
             </NavLink>
           ))}
         </ul>
       </div>
-      <div className={`flex justify-between items-center pl-1 pr-3 overflow-x-hidden lg:hidden ${pathname === "/about" ? "bg-light_dark-1 border-b-light_dark-1" : "bg-light_dark-1"} rounded-md sticky top-0`}>
+      <div className={`flex justify-between items-center pl-1 pr-3 overflow-x-hidden lg:hidden ${pathname === "/about" ? "bg-gradient-to-r from-[#9733EE] to-[#DA22FF] border-b-light_dark-1 rounded-none" : "bg-gradient-to-r from-[#9733EE] to-[#DA22FF]"} rounded-md sticky top-0`}>
         <div className=''>
           <Logo src="./Images/logo1.webp" />
         </div>

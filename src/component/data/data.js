@@ -1,32 +1,33 @@
 export const featureItems = [
   {
     id:1,
-
+    image:"./Images/customisation1.avif",
     heading: "Expertise",
     content: "Our team has extensive experience and expertise in a wide range of digital services, including website and app development, AI integration, SEO, and social media management."
   },
   {
     id:2,
-
+    image:"./Images/custom.jpg",
     heading: "Customization",
     content: "We understand that every business has unique needs, which is why we take a customized approach to our services. Whether you need a new website, an AI-powered app, or help with social media management, we will work with you to develop a tailored solution that meets your specific goals."
   },
   {
     id:3,
-
+    image:"./Images/expertise.avif",
     heading: "Results",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+    content: "Experience tangible outcomes with our tailored digital solutions. We prioritize measurable results, from enhancing online presence to optimizing processes. Trust us to exceed your expectations and drive success for your business."
   },
   {
     id:4,
-
+    image:"./Images/comprehensive1.jpg",
     heading: "Comprehensive services",
     content: "We offer a comprehensive suite of digital services, which means that you can work with a single provider for all of your needs. This streamlined approach can lead to cost savings and more efficient processes."
   },
   {
     id:5,
+    image:"./Images/clientsatisfaction.jpg",
     heading: "Client satisfaction",
-    content: "We offer a comprehensive suite of digital services, which means that you can work with a single provider for all of your needs. This streamlined approach can lead to cost savings and more efficient processes."
+    content: "Client satisfaction is our top priority. We strive to understand and exceed your expectations, ensuring seamless communication, timely delivery, and exceptional results. Your success is our success, driving us to consistently deliver excellence in every project."
   }
 ]
 

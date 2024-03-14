@@ -24,7 +24,10 @@ const Home = () => {
         <div className="h-0.5 w-full bg-gradient-to-r from-transparent via-light_dark-1 to-transparent "></div>
 
         <div className=' flex flex-col lg:space-y-20 space-y-16 lg:mt-10 mt-16 mb-20 pb-10 '>
-          <h1 className='lg:text-6xl text-5xl w-full text-center lg:mb-0 lg:p-0 font-josefin '>What We Do</h1>
+    
+          <h1 className='lg:text-6xl text-5xl  mx-auto w-full text-center lg:mb-0 lg:p-0 font-josefin  '>What We Do</h1>
+
+     
           <div className='flex flex-col space-y-20 '>
             {serviceItems.map((item) => (
               <PostCard {...item} key={item.heading} />
