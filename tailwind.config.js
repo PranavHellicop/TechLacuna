@@ -43,8 +43,18 @@ export default {
         'shadow3':['-5px 5px 0px 0px rgba(0, 0, 0)'],
         'shadow4':['-10px -10px 30px 4px rgba(0,0,0,0.1), 10px 10px 30px 4px rgba(45,78,255,0.15)'],
         'shadow5':['1rem 1rem 0 rgba(110, 34, 163, 1)']
-      }
+      },
 
+      keyframes:{
+        'nav-menu':{
+          '0%':{transform:'scaleY(0)'},
+          '80%':{transform:'scaleY(1.2)'},
+          '100%':{transform:'scaleY(1)'},
+        }
+      },
+      animation:{
+        'nav-menu':'nav-menu 0.5s ease-in-out'
+      }
     },
 
   },

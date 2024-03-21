@@ -1,17 +1,28 @@
-import React from 'react'
+import React, { useEffect,useState } from 'react'
 import { Logo } from "./index"
 import { NavLink, useLocation } from 'react-router-dom'
 import { GiHamburgerMenu } from "react-icons/gi";
 import { ImCross } from "react-icons/im";
-import { useState } from 'react';
 import Tilt from 'react-parallax-tilt';
 
 
 const Header = () => {
   const [navOpen, setIsNavOpen] = useState(false)
   const { pathname } = useLocation()
-  const navItems = [
 
+  useEffect(()=>{
+    const toggleMenu = (e)=>{
+      if (e.target.nodeName !=="svg"){
+        setIsNavOpen(false)
+      }
+    }
+
+    document.body.addEventListener("click",toggleMenu)
+
+    return ()=>document.body.removeEventListener("click",toggleMenu)
+  },[])
+
+  const navItems = [
     {
       itemName: "Home",
       path: "/"
@@ -63,7 +74,7 @@ const Header = () => {
 
       </div>
       {navOpen &&
-        <ul className={`flex justify-center w-full items-center flex-col space-y-4 absolute top-14  p-5 bg-light_dark-1 z-10`}>
+        <ul className={`flex justify-center w-full items-center flex-col space-y-4 absolute top-12 p-5 bg-light_dark-1 z-10 animate-nav-menu origin-top`}>
           {navItems.map((item) => (
             <NavLink to={item.path} key={item.itemName} className="text-white hover:text-gray-400 bg-light_dark-2 p-2 rounded-md w-full text-center" onClick={() => setIsNavOpen(!navOpen)} >
               <li  className='font-bold text-lg'>{item.itemName}</li>

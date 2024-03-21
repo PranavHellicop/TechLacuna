@@ -33,7 +33,7 @@ const HeroSection = () => {
             {/* Right Image */}
             <div className="w-full lg:w-2/5  h-full drop-shadow-mist shadow-light_dark-1  ">
                
-                <img loading='lazy' src={heroText.image} alt="image" className=' lg:w-full lg:h-full w-[20rem] h-[20rem] hover:scale-110 transition-transform duration-[5000ms] ease-in-out' />
+                <img  src={heroText.image} alt="image" className=' lg:w-full lg:h-full w-[20rem] h-[20rem] hover:scale-110 transition-transform duration-[5000ms] ease-in-out' />
             </div>
         </div>
 

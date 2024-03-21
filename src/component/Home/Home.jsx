@@ -15,7 +15,7 @@ const Home = () => {
   }, [])
 
   return (
-    <Container>
+    // <Container>
       <div className='  border-t-light_dark-0 border-b-light_dark-0 m-2 mt-0 mb-0 pb-10'>
         <div className='p-5 pt-0 mt-5'>
           <HeroSection />
@@ -59,7 +59,7 @@ const Home = () => {
           <Testimonial />
         </div>
       </div>
-    </Container>
+    // </Container>
   )
 }
 
