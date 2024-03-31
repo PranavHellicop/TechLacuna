@@ -9,9 +9,6 @@
   }
   
   .swiper-slide {
-    /* background-position: top;
-    background-size: cover; */
-    /* width: 20rem; */
     height: 27rem;
     display: flex;
     flex-direction: column;
@@ -22,7 +19,7 @@
     border: 1px solid #ccc;
     border-radius: 1rem;
     max-width: 25rem;
-    background-image: url("../../public/Images/purpleFlower.jpg");
+    background-image: url("./Images/purpleFlower.jpg");
     overflow: hidden;
 
   }

@@ -50,7 +50,7 @@ const Footer = () => {
 
                         <p className='text-center  text-xs'>Privacy Policy</p>
                     </NavLink>
-                    <p className='text-center lg:text-base text-xs'>&copy; 2024 Tech Lacuna All Rights Reserved</p>
+                    <p className='text-center lg:text-base text-xs'>&copy; 2024 TECHLACUNA AI (OPC) PRIVATE LIMITED All Rights Reserved</p>
                     <NavLink to="/terms">
 
                     <p className='text-center text-xs'>Terms & Conditions</p>

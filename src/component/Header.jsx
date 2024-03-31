@@ -60,21 +60,21 @@ const Header = () => {
           ))}
         </ul>
       </div>
-      <div className={`flex justify-between items-center pl-1 pr-3 overflow-x-hidden lg:hidden ${pathname === "/about" ? "bg-gradient-to-r from-[#9733EE] to-[#DA22FF] border-b-light_dark-1 rounded-none" : "bg-gradient-to-r from-[#9733EE] to-[#DA22FF]"} rounded-md sticky top-0`}>
+      <div className={`flex justify-between items-center pl-1 pr-3 h-16 overflow-x-hidden lg:hidden ${pathname === "/about" ? "bg-gradient-to-r from-[#9733EE] to-[#DA22FF] border-b-light_dark-1 rounded-none" : "bg-gradient-to-r from-[#9733EE] to-[#DA22FF]"} rounded-md sticky top-0`}>
         <div className=''>
           <Logo src="./Images/logo1.webp" />
         </div>
         <div className=''>
           {!navOpen ?
-            <GiHamburgerMenu onClick={() => setIsNavOpen(!navOpen)} className='text-3xl cursor-pointer text-white' />
+            <GiHamburgerMenu onClick={() => setIsNavOpen(!navOpen)} className='text-4xl cursor-pointer text-white' />
             :
-            <ImCross onClick={() => setIsNavOpen(!navOpen)} className='text-3xl cursor-pointer text-white' />
+            <ImCross onClick={() => setIsNavOpen(!navOpen)} className='text-4xl cursor-pointer text-white' />
           }
         </div>
 
       </div>
       {navOpen &&
-        <ul className={`flex justify-center w-full items-center flex-col space-y-4 absolute top-12 p-5 bg-light_dark-1 z-10 animate-nav-menu origin-top`}>
+        <ul className={`flex justify-center w-full items-center flex-col space-y-4 absolute top-14 p-5 bg-light_dark-1 z-10 animate-nav-menu origin-top`}>
           {navItems.map((item) => (
             <NavLink to={item.path} key={item.itemName} className="text-white hover:text-gray-400 bg-light_dark-2 p-2 rounded-md w-full text-center" onClick={() => setIsNavOpen(!navOpen)} >
               <li  className='font-bold text-lg'>{item.itemName}</li>
